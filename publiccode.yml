@@ -16,6 +16,73 @@ description:
     localisedName: it
     longDescription: |
       Il modulo di prenotazione campioni è un applicativo per la prenotazione
+
+      dei campioni presso IZSLER condivisa tra Istituto e cliente (ATS/AUSL,
+
+      privati, ecc…) per tutte le finalità gestite all’interno dei laboratori di
+
+      analisi. Per ogni prenotazione l’istituto può programmare l’attività
+
+      interna e avere un calendario di tutte le attività da svolgere.  
+
+
+
+      IZSLER necessita di avere una gestione organizzata e scadenziata delle
+
+      analisi da svolgere soprattutto in caso di campionamenti che vengono fatti
+
+      in un'unica istanza. 
+    shortDescription: |-
+      Applicativo per la prenotazione dei campioni presso IZSLER condivisa tra
+
+      Istituto e cliente
+developmentStatus: development
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: true
+legal:
+  license: AGPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - name: Invisiblefarm S.R.L
+  type: internal
+name: Prenotazione Campioni
+platforms:
+  - web
+releaseDate: '2023-09-27'
+softwareType: standalone/web
+url: 'https://github.com/IZSLER-SI/prenotazione_campioni'
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: php
+categories:
+  - online-booking
+  - event-management
+description:
+  it:
+    features:
+      - prenotazione appuntamenti
+      - gestione calendario laboratorio
+    genericName: Sistema di prenotazione
+    localisedName: it
+    longDescription: |
+      Il modulo di prenotazione campioni è un applicativo per la prenotazione
       dei campioni presso IZSLER condivisa tra Istituto e cliente (ATS/AUSL,
       privati, ecc…) per tutte le finalità gestite all’interno dei laboratori di
       analisi. Per ogni prenotazione l’istituto può programmare l’attività
